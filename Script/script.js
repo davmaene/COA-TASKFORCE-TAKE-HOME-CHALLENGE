@@ -4,7 +4,8 @@ document.onload(() => {
 
     items.forEach(item => {
         // handle event on mouse is hovering the image
-        item.addEventListener('mouseover', () => {
+        item.addEventListener('mouseover', (e) => {
+            e.preventDefault()
             const img = item.querySelector('img');
             img.classList.add('blur');
             console.log(`The Hovered over action detected ${item.dataset.title}`);
