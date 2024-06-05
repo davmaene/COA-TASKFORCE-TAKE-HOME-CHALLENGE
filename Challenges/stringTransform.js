@@ -5,7 +5,6 @@ const stringTransform = ({ inputString }) => {
     const reverseString = (s) => {
         return s.split('').reverse().join('');
     }
-
     // Function to replace each character with its ASCII code
     const replaceEachCharWithItsAscii = (s) => {
         return s.split('').map(char => char.charCodeAt(0)).join(' ');
