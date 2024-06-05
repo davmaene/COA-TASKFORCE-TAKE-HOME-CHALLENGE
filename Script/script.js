@@ -1,4 +1,4 @@
-// this event is laucnhed when the dom is ready or finished to load
+// this event is laucnhed when the dom is ready or finished tobe loaded
 document.onload(() => {
     const items = document.querySelectorAll('.gallery-item');
 
