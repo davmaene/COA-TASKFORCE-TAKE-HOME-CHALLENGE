@@ -51,6 +51,7 @@ main {
 
 .gallery .gallery-item:hover img {
     transform: scale(1.1);
+    filter: blur(5px);
 }
 
 .gallery .gallery-item img.blur {
