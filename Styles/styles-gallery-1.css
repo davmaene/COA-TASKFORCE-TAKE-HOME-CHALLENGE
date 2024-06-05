@@ -54,10 +54,6 @@ main {
     filter: blur(5px);
 }
 
-.gallery .gallery-item img.blur {
-    filter: blur(5px);
-}
-
 .gallery .gallery-item::after {
     position: absolute;
     bottom: 0;

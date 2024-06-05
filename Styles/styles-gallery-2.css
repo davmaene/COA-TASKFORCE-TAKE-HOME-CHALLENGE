@@ -88,10 +88,6 @@
     filter: blur(5px);
 }
 
-.second-gallery .gallery-item img.blur {
-    filter: blur(5px);
-}
-
 .second-gallery .gallery-item::after {
     position: absolute;
     bottom: 0;
