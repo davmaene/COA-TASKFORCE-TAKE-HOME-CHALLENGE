@@ -4,15 +4,12 @@ const arrayMap = ({ inputArray, targetSum }) => {
     
     for (let window = 0; window < inputArray.length; window++) {
         currentSum += inputArray[window];
-        
         while (currentSum > targetSum && currentWindow <= window) {
             currentSum -= inputArray[currentWindow];
             currentWindow++;
         }
-        
         if (currentSum === targetSum) return true; // when the subarray containing the target is found we return true
     }
-
     return false;
 }
 
